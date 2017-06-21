@@ -1,0 +1,28 @@
+var struct_app =
+[
+    [ "a_cube_normal", "struct_app.html#a9168949bb401b3ee43e6d8673fe2508f", null ],
+    [ "a_cube_position", "struct_app.html#a0ec47005a4471fec5e826a2fe6fc0faa", null ],
+    [ "a_distort_position", "struct_app.html#a9129a42fe7ea4055c4b450cce676b3f7", null ],
+    [ "a_distort_uv_blue_high_res", "struct_app.html#ac4d34f2142a5de6f1e3cbb4e57f2c316", null ],
+    [ "a_distort_uv_blue_low_res", "struct_app.html#a7451cba4012fa99ffb0d2e5be36d5e14", null ],
+    [ "a_distort_uv_green_high_res", "struct_app.html#a92bf8f6a5bd6dd4f8d73ee6b6ad30874", null ],
+    [ "a_distort_uv_green_low_res", "struct_app.html#af492ad590606bb850b98f4ee0225d4c5", null ],
+    [ "a_distort_uv_red_high_res", "struct_app.html#a8c9cc4e7197f5b675ecf945c4b27d0c3", null ],
+    [ "a_distort_uv_red_low_res", "struct_app.html#a48a3ecd479e79151f5d451659b452412", null ],
+    [ "elapsed_time", "struct_app.html#a3cad04445f0100037de6e54f51947522", null ],
+    [ "fb", "struct_app.html#a62cf1e9ec7673353ce9f057e51011910", null ],
+    [ "frame_time", "struct_app.html#ac533c5507d19fb672d5ae00fffd8da4a", null ],
+    [ "hmd", "struct_app.html#a2bd7a377de5e90cb91dfda6184e8e44a", null ],
+    [ "program_cube", "struct_app.html#ac951998522c9f5019b7a6b6f7be34fbf", null ],
+    [ "program_distort", "struct_app.html#a25f107e32a949ea5f98ce4b2b98b4f95", null ],
+    [ "u_cube_model", "struct_app.html#a6a9c60a4db32a1c86e14ded79f688e98", null ],
+    [ "u_cube_projection", "struct_app.html#a5de5e3ff0847f42786c480b942ac3057", null ],
+    [ "u_cube_view", "struct_app.html#a792434ea21cb167a5b765e5d6e3817bf", null ],
+    [ "u_distort_framebuffer", "struct_app.html#aba50a0653f3f559abcc2258bcf174922", null ],
+    [ "u_distort_layer_index", "struct_app.html#a26f919beb125a6a5f83bda270beca890", null ],
+    [ "vao", "struct_app.html#ae78579560ff1c00f6493d32b68bb0233", null ],
+    [ "vbo_cube", "struct_app.html#ab2cb0fb61cbb5cfb5710c2256d52526d", null ],
+    [ "warp_mesh", "struct_app.html#a202b29b0dcffb81216ab4cd2e1e29b4d", null ],
+    [ "window_height", "struct_app.html#a58955e38c94f9892a947fefe9869e3ca", null ],
+    [ "window_width", "struct_app.html#af638777153c296699411486e4e878559", null ]
+];
