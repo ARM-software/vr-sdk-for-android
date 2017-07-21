@@ -1,0 +1,38 @@
+/**
+\mainpage
+Welcome to VR SDK $(VERSION).
+
+\section about About
+
+The VR SDK for Android is a collection of resources to help you build VR applications
+for a platform with a Mali GPU and an ARM processor. You can use it for creating new applications,
+training, and exploration of implementation possibilities.
+
+You can use the VR SDK to produce applications that will run on any devices that run Android&trade; on an ARM processor.
+
+\section requirements Requirements
+To build and run the VR sample applications you will need:
+ -  An ARM based development board with a Mali series GPU running Android.
+ -  The <a href="https://developer.android.com/studio/index.html">Latest Android Studio</a>.
+ -  The <a href="https://developer.android.com/ndk/index.html">Latest Android NDK ( can be installed from Android Studio )</a>.
+
+\section gettingStarted Getting Started
+ -  See the \ref gettingStartedGuide for information on how to get started.
+ -  Have a look at some specific \ref tutorials and \ref samples.
+ -  Get \ref support from ARM.
+
+\section changeLog Change Log
+Summary of changes between versions of the VR SDK for Android.
+ 
+ \subsection v011 Changes in version 0.1.1
+ -  Release of the VR SDK for Android on GitHub.
+ 
+\subsection v010 Changes in version 0.1.0
+ -  First release of the VR SDK for Android with \ref IntroductionToStereoRendering and \ref sampleBasics.
+
+\section contents Contents
+Directory     | Contents
+------------- | -------------
+docs          | Documentation for the SDK including tutorials.
+samples       | Sample VR applications.
+*/

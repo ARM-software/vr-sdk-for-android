@@ -1,0 +1,87 @@
+/**
+\page gettingStartedGuide Getting Started Guide
+\brief Everything you need to know to go from scratch to building Android applications.
+
+\section gettingStartedGuideIntroduction Introduction
+
+This guide helps you get up and running with developing for your Mali GPU
+based platform running Android. It helps you to download and configure the
+tools so you can begin to develop apps for your
+platform. The guide will then talk you through importing a basic Android
+project, building it and then running the project on a your target platform.
+It is assumed you are either running Linux or
+Windows as your host platform.
+
+\section gettingStartedGuideGettingAppropriateTools Getting the Appropriate Tools
+
+You require a few tools for Android Development of which are modules which you can install via 
+Android Studio. Download Android Studio from <a href="http://developer.android.com/sdk/index.html">
+here</a>.
+
+Once you have installed Android Studio, you will need to install the Android NDK to support any native 
+code. 
+ -# Open Android Studio. If a project opens up, go to *Tools -> Android -> SDK Manager*. If you are 
+	shown the welcome screen click on *Configure -> SDK Manager* located at the bottom-right.
+ -# In the Android SDK window, click the *SDK Tools* tab.
+ -# Check the boxes next to *LLDB*, *CMake*, and *NDK*.
+ -# Click *Apply*, and then click *OK*.
+ -# When the installation is complete, click *Finish*, and then click *OK*.
+
+Full documentation and instructions on the Android NDK 
+<a href="http://developer.android.com/tools/sdk/ndk/index.html">here</a>.
+
+Previously you would have to setup and configure Eclipse with ADT, however the ADT plugin has been 
+discontinued and will no longer be supported. Android now packages everything you need within Android 
+Studio for you, making getting started much more easy.
+
+
+\section connecting Connecting your Device
+
+To put your application onto a real device you must install drivers.
+For this guide we use the Allwinner A13 tablet which use the default Android USB Drivers. If you are using
+a different device consult the manufacturer to find out what drivers you need to install.
+You must also turn on USB debugging on your device for this to work. Do this by:
+
+ -# Open *Settings* and then *Developer Options*.
+ -# Activate the USB debugging option.
+
+
+\if windows
+To install the standard USB drivers go into the Android SDK Bundle directory and click on the SDK Manager.
+From here you are given a list of options that you can install. Under the Extras section you can find the
+Google USB
+Driver. Install this and you can use your device with your computer.
+\endif
+\if linux
+Your device should be found automatically by a Linux system but there are no permissions associated to it.
+To give your device the appropriate permissions edit the file:
+
+\code
+/etc/udev/rules.d/51-android.rules
+\endcode
+
+If this file does not exist, create it. Inside the file you must add a rule for each Android device you
+intend to use.
+For example, this is a sample rule created for the Allwinner platform:
+
+\code
+SUBSYSTEM=="usb",ATTR{idVendor}=="18d1",ATTR{idProduct}=="0003",MODE="0600",OWNER="YOURUSERNAME"
+\endcode
+
+Replace **YOURUSERNAME** with your username on your system.
+\endif
+\section gettingStartedGuideImportingAProject Import and build a sample project
+
+To test if your setup is ready for developing real applications, try one of the sample applications provided
+by us:
+ -# Open Android Studio the same way as done previously and click *Open an exisiting Android Studio project*.
+ -# Navigate to where you installed the VR SDK, and go to the *samples/SimpleVR* subdirectory.
+ -# Double click on *SimpleVR*.
+ -# Gradle should sync automatically, but if it doesn't then go to *Build -> Make Project*.
+ -# Then click *Run -> Run 'app'*, and choose to run it either on a connected USB android device, or an emulator.
+ -# If you've done everything right so far, you should see a screen like this:
+	<img src="vrbasics.png" />
+ -# You can now make changes to the code in the *Project* view.
+
+
+*/

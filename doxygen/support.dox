@@ -1,0 +1,20 @@
+/**
+\page support Support
+\brief Getting support for the VR SDK $(VERSION).
+
+\section supportLocal Local Help
+
+If you get stuck with tutorials, look at \ref gettingStartedGuide to see the solutions.
+
+\section supportMaliDeveloper Developers Forums
+
+For all support queries please visit the <a href="http://community.arm.com/groups/arm-mali-graphics/">Developers forums</a>.
+
+\if linux
+This is the VR SDK v$(VERSION).$(GIT_SHA) on Linux.
+\endif
+\if windows
+This is the VR SDK $(VERSION).$(GIT_SHA) on Windows.
+\endif
+Please quote this version when requesting support.
+*/

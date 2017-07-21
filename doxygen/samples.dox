@@ -1,0 +1,24 @@
+/**
+\page samples Samples
+\brief A collection of VR sample applications.
+
+These samples introduce the basics of a VR application. The source for these samples can be found in the
+\if windows
+*samples\\tutorials*
+\endif
+\if linux
+*samples/tutorials*
+\endif
+folder of the SDK.
+
+\section sampleBasics SimpleVR
+
+\image html vrbasics.png "SimpleVR"
+
+This sample shows how to implement the basics of stereoscopic rendering. The sample will render a 3D scene from two virtual camera positions, corresponding to the viewer's eyes in the scene, and present them together on a display. The sample also shows how to implement software correction of lens distortion and chromatic aberration.
+
+\note
+See \ref gettingStartedGuide for instructions on how to use the samples.
+
+*/
+
